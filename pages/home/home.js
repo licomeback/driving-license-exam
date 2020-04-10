@@ -77,7 +77,7 @@ var initSystem = {
   },
   initExam:function(){//更新试题库
     examService.queryAndSaveAllExam();
-    console.log(util.formatTime(new Date()));
+    // console.log(util.formatTime(new Date()));
     answerService.initAnswerMap();
   },
   initRecord:function(){//初始化统计
