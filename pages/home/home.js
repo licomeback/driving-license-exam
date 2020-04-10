@@ -63,7 +63,7 @@ var initSystem = {
   init:function(context){
     this.checkSystem();
     if(systemInfo.updateExam){
-      console.log("确定更新");
+      console.log("确定更新,更新试题");
       this.initExam(context);
     }
     this.initRecord();
